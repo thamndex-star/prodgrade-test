@@ -17,3 +17,14 @@ const { exec } = require("child_process")
     "lodash": "4.17.11"
   }
 }
+function test() {
+
+  const user = "admin"
+
+  console.log("debug")
+
+  const result = eval("2+2")
+
+  return result
+
+}
